@@ -222,14 +222,17 @@ python -m src.assistant --model qwen2.5:1.5b
 ---
 
 # 📸 Screenshots
-
-Screenshots will be added after the final prototype demonstration.
-
----
+ 
+<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 2_48_45 PM" src="https://github.com/user-attachments/assets/f06d6699-df6d-458c-b880-1d6cd3dd7080" />
+<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 2_48_32 PM" src="https://github.com/user-attachments/assets/c8f9c690-14a9-4b87-abce-41efc1a15dac" />
+<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 2_46_28 PM" src="https://github.com/user-attachments/assets/be9110b2-dd49-4be3-98a0-8d2be3b0afa8" />
+<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 4_31_34 PM" src="https://github.com/user-attachments/assets/5edbe509-2fdf-46d3-934c-49fe1923fb8d" />
+ 
 
 # 🎥 Demo Video
 
 Demo video will be added after the final presentation.
+
 
 ---
 
