@@ -1,119 +1,263 @@
-# AgriSec Local Assistant
+# 🌾 AgriSec
 
-Offline, on-device agricultural advisory assistant for the **Africa Deep Tech Challenge 2026** Agriculture domain. AgriSec uses **Ollama + Qwen2.5:1.5B**, FAISS, and sentence-transformers to run a local RAG system on commodity 8 GB laptops.
+## Offline AI Agricultural Assistant for African Farmers
 
-## What This Project Builds
+AgriSec is an AI-powered offline agricultural assistant developed for the **Africa Deep Tech Challenge (ADTC) 2026**. It helps farmers access practical agricultural knowledge without requiring an internet connection.
 
-AgriSec combines:
+The system combines **Retrieval-Augmented Generation (RAG)**, **Ollama**, **Qwen2.5**, **FAISS**, and a multilingual agricultural knowledge base to answer farming questions in **English** and **Hausa** while running completely on a standard laptop.
 
-- Ollama local inference with `qwen2.5:1.5b`
-- Retrieval-augmented generation over a local agriculture corpus
-- English, Hausa, and mixed-query language handling
-- Lightweight conversation memory for follow-up questions
-- A localhost web UI for demos and field-style usage
-- Benchmark tooling for tokens/sec, latency, and peak RAM
+---
 
-## Architecture
+# 🚜 The Problem
+
+Millions of farmers across Africa have limited access to agricultural extension services.
+
+Many rural communities experience:
+
+* Poor or no internet connectivity
+* Limited access to agricultural experts
+* Language barriers
+* Difficulty accessing reliable farming information
+
+Most AI assistants depend on cloud services, making them difficult to use in remote farming communities.
+
+---
+
+# 💡 Our Solution
+
+AgriSec brings agricultural intelligence completely offline.
+
+Instead of relying on cloud APIs, AgriSec stores agricultural knowledge locally and uses AI to retrieve the most relevant information before generating accurate, source-backed responses.
+
+The system can assist farmers with:
+
+* 🌽 Crop production
+* 🌱 Fertilizer recommendations
+* 🐛 Pest and disease management
+* 🐄 Livestock management
+* 🌾 Post-harvest storage
+* 🌍 Agricultural best practices
+* 🇳🇬 English and Hausa language support
+
+---
+
+# ✨ Key Features
+
+* ✅ Fully Offline AI Assistant
+* ✅ English & Hausa Support
+* ✅ Retrieval-Augmented Generation (RAG)
+* ✅ Source-backed Answers
+* ✅ Follow-up Conversation Memory
+* ✅ Fast Semantic Search using FAISS
+* ✅ Lightweight Local Deployment
+* ✅ Designed for Rural Communities
+* ✅ Runs on Standard 8GB Laptops
+* ✅ Local Web Interface
+* ✅ Command Line Interface
+
+---
+
+# 🏗 System Architecture
 
 ```text
-User question (English or Hausa)
-        |
-        v
-Local web UI or CLI
-        |
-        v
-Language/greeting/memory/safety layer
-        |
-        v
-Retriever (multilingual sentence-transformers + FAISS)
-        |
-        v
-Ollama model: qwen2.5:1.5b
-        |
-        v
-Grounded answer + sources + speed metrics
+Farmer Question
+        │
+        ▼
+Web UI / CLI
+        │
+        ▼
+Language Detection
+        │
+        ▼
+Conversation Memory
+        │
+        ▼
+Retriever (FAISS)
+        │
+        ▼
+Agricultural Knowledge Base
+        │
+        ▼
+Ollama + Qwen2.5:1.5B
+        │
+        ▼
+Grounded AI Response
 ```
 
-## Why These Choices Fit ADTC
+---
 
-| Hackathon requirement | AgriSec alignment |
-|---|---|
-| Runs on commodity laptops | Small Qwen2.5:1.5B model through Ollama, short context, low token limit |
-| No cloud dependency | Local Ollama model, local FAISS index, local corpus, localhost UI |
-| Agriculture domain | Corpus covers crops, pests, fertilizer, livestock, storage, and Hausa guides |
-| Accuracy | RAG grounding, relevance gate, source filtering, concise safety prompt |
-| Speed | Instant greeting/thanks path, top-k capped at 3, short responses by default |
-| RAM efficiency | No heavy frontend framework; one small embedding model and one small LLM |
-| UI/UX judged | Web UI includes quick topics, bilingual mode, offline status, sources, and metrics |
+# 🧠 How It Works
 
-## Repo Structure
+1. The farmer asks a question in English or Hausa.
+2. AgriSec detects the language.
+3. Relevant agricultural documents are retrieved using FAISS.
+4. The retrieved knowledge is supplied to the local AI model.
+5. The AI generates a grounded response.
+6. The system displays the information together with the document sources.
+
+Everything runs locally without any cloud dependency.
+
+---
+
+# 🌍 Example Questions
+
+### English
+
+* How do I start maize farming?
+* Which fertilizer is best for rice?
+* How can I control Fall Armyworm?
+* How should I store maize after harvest?
+
+### Hausa
+
+* Yaya zan shuka masara?
+* Wane taki ya dace da shinkafa?
+* Yaya zan kashe tsutsar Fall Armyworm?
+* Ta yaya zan adana masara bayan girbi?
+
+---
+
+# ⚙ Technologies Used
+
+## Programming
+
+* Python
+
+## AI
+
+* Ollama
+* Qwen2.5:1.5B
+* Retrieval-Augmented Generation (RAG)
+
+## Retrieval
+
+* FAISS
+* Sentence Transformers
+
+## Frontend
+
+* HTML
+* CSS
+* JavaScript
+
+## Data
+
+* Markdown Knowledge Base
+
+---
+
+# 📁 Project Structure
 
 ```text
-agrisec/
-├── src/
-│   ├── assistant.py      # Language, memory, prompt, safety, orchestration
-│   ├── inference.py      # Ollama/Qwen wrapper and language utilities
-│   ├── rag.py            # Corpus cleaning, chunking, FAISS retrieval/reranking
-│   └── web_app.py        # Lightweight offline localhost UI
-├── scripts/
-│   └── benchmark.py      # Ollama TPS / peak RAM / latency profiler
+AgriSec/
+│
+├── assets/
+│
 ├── data/
-│   ├── corpus/           # Local agriculture documents
-│   └── index/            # Generated FAISS index, not committed
+│   ├── corpus/
+│   └── index/
+│
 ├── reports/
-│   ├── REPORT.md         # ADTC project report draft
-│   └── REPORT.docx       # Regenerate after final Markdown edits
-├── assets/               # Add screenshots and demo video here
-└── requirements.txt
+│
+├── scripts/
+│
+├── src/
+│   ├── assistant.py
+│   ├── inference.py
+│   ├── rag.py
+│   └── web_app.py
+│
+├── requirements.txt
+├── README.md
+├── ARCHITECTURE.md
+└── PLAN.md
 ```
 
-## Setup on the Target Laptop
+---
+
+# 🚀 Installation
 
 ```bash
-python3 -m venv venv
+git clone https://github.com/Ambatogusau/AgriSec.git
+
+cd AgriSec
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux/macOS
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 ollama pull qwen2.5:1.5b
+
 python -m src.rag --build
 ```
 
-Run the web UI:
+---
+
+# ▶ Running AgriSec
+
+Start the Web Application
 
 ```bash
 python -m src.web_app --model qwen2.5:1.5b
 ```
 
-Open [http://127.0.0.1:7860](http://127.0.0.1:7860). The app binds to localhost only.
+Open:
 
-Preview the UI without Ollama:
-
-```bash
-python -m src.web_app --demo
+```
+http://127.0.0.1:7860
 ```
 
-Run the CLI assistant:
+Run the Command Line Assistant
 
 ```bash
 python -m src.assistant --model qwen2.5:1.5b
 ```
 
-Run benchmarks:
+---
 
-```bash
-python scripts/benchmark.py --model qwen2.5:1.5b --runs 5
-```
+# 📸 Screenshots
 
-## Submission Checklist
+Screenshots will be added after the final prototype demonstration.
 
-- Run `python -m src.rag --build` after every corpus or retrieval change.
-- Run `scripts/benchmark.py` on target hardware and paste real numbers into `reports/REPORT.md`.
-- Capture UI screenshots in `assets/`.
-- Record a max 2-minute demo video showing offline mode, English and Hausa answers, sources, and benchmark numbers.
-- Regenerate `reports/REPORT.docx` from the final report.
+---
 
-## Current Gaps Before Submission
+# 🎥 Demo Video
 
-- Final benchmark numbers are still required from an ADTC-style laptop.
-- Hausa documents should be reviewed by a native Hausa speaker before real farmer deployment.
-- Add more Hausa corpus files for pests, fertilizer, and livestock to improve Hausa coverage.
+Demo video will be added after the final presentation.
+
+---
+
+# 🚀 Future Improvements
+
+* Voice interaction
+* Drone integration
+* Soil analysis
+* Plant disease detection
+* Weather forecasting
+* Farm mapping
+* Mobile application
+* IoT sensor integration
+
+---
+
+# 👨‍💻 Developed By
+
+**Abdullahi Badamasi**
+
+Founder & CEO, Ambato Digital Hub
+
+Africa Deep Tech Challenge (ADTC) 2026
+
+---
+
+# 📄 License
+
+This project was developed for the **Africa Deep Tech Challenge (ADTC) 2026**.
+
+For educational and demonstration purposes.
