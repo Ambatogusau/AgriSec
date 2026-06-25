@@ -299,7 +299,7 @@ def build_prompt(question: str, context_chunks, language="english", allow_more_d
     return f"""{SYSTEM_PREAMBLE}
 
 Reply language:
-{style}
+{style} 
 
 Context:
 {context_block}
@@ -410,54 +410,86 @@ def answer_question(
 
     # HAUSA MODE (RETRIEVAL ONLY)
     if language == "hausa":
-        source_name = chunks[0]["source"]
-        same_source_chunks = [c for c in retriever.docs if c["source"] == source_name]
-        same_source_chunks = sorted(same_source_chunks, key=lambda x: x["chunk_id"])
-        combined_text = "\n\n".join(c["text"] for c in same_source_chunks)
-        answer_text = _clean_hausa_chunk(combined_text)
+        selected_chunks = chunks
+        seen = set()
+        cleaned = []
+
+        for chunk in selected_chunks:
+            text = _clean_hausa_chunk(chunk.get("text", "")).strip()
+            if not text:
+                continue
+            if text in seen:
+                continue
+            seen.add(text)
+            cleaned.append(text)
+
+        answer_text = "\n\n".join(cleaned)
+
+        if not answer_text.strip():
+            answer_text = UNCERTAIN_HA
+
+        elapsed = time.time() - start_time
 
         answer = {
             "text": answer_text,
             "tokens": len(answer_text.split()),
-            "elapsed_sec": round(time.time() - start_time, 2),
+            "elapsed_sec": round(elapsed, 2),
             "tokens_per_sec": 0.0,
             "sources": _source_payload(chunks),
         }
-        
+
         memory["last_user_question"] = effective_question if not used_memory else memory.get("last_user_question")
         memory["last_answer"] = answer["text"]
         memory["last_language"] = language
         memory["last_chunks"] = chunks
         return answer
 
-    # ENGLISH MODE (RAG + LLM)
-    prompt = build_prompt(
-        effective_question,
-        chunks,
-        language=language,
-        allow_more_detail=used_memory,
-    )
-    
-    result = llm.generate(prompt, max_tokens=320 if used_memory else 250, temperature=0.05)
-    
-    if result.get("error"):
-        return {
-            **result,
-            "sources": _source_payload(chunks),
-        }
-        
-    print("\n[RAW MODEL OUTPUT]")
-    print(result.get("text", ""))
-    print("[END RAW MODEL OUTPUT]\n")
-    
-    final_text = _postprocess_answer(result.get("text", ""), language, chunks)
+    # ----------------------------
+    # ENGLISH MODE (RETRIEVAL ONLY)
+    # ----------------------------
+    seen = set()
+    selected = []
+
+    for chunk in chunks:
+        text = chunk["text"].strip()
+
+        if not text:
+            continue
+
+        if text in seen:
+            continue
+
+        seen.add(text)
+        selected.append(text)
+
+    answer_text = "\n\n".join(selected)
+
+    if not answer_text.strip():
+        answer_text = (
+            "I do not have enough information in my local knowledge base "
+            "to answer confidently."
+        )
+
     elapsed = time.time() - start_time
-    answer = _metadata(final_text, language, _source_payload(chunks), elapsed=elapsed)
-    
-    memory["last_user_question"] = effective_question if not used_memory else memory.get("last_user_question")
+
+    answer = {
+        "text": answer_text,
+        "tokens": len(answer_text.split()),
+        "elapsed_sec": round(elapsed, 2),
+        "tokens_per_sec": 0.0,
+        "sources": _source_payload(chunks),
+    }
+
+    memory["last_user_question"] = (
+        effective_question
+        if not used_memory
+        else memory.get("last_user_question")
+    )
+
     memory["last_answer"] = answer["text"]
     memory["last_language"] = language
     memory["last_chunks"] = chunks
+
     return answer
 
 
