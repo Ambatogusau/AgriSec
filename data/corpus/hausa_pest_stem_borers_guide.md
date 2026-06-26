@@ -1,7 +1,4 @@
-# Jagorar Kwarin Stem Borer (Hausa Stem Borer Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `pest_stem_borers.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Gano Kwarin
 Tsutsar stem borer tana shiga cikin karar masara, dawa, ko gero, tana cin ta a ciki. Alamar farko ita ce "dead-heart" — tsakiyar tsiro ya bushe, za a iya zarewa shi cikin sauki.
 

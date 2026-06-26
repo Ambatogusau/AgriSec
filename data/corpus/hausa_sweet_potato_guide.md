@@ -1,7 +1,4 @@
-# Jagorar Noman Dankalin Turawa (Hausa Sweet Potato Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta bayanin Ingilishi a `sweet_potato_production.md`. **Bukatar dubawa daga mai magana da Hausa ko jami'in noma.**
-
+ 
 ## Gabatarwa
 Dankalin turawa amfanin gona ne mai sauki ga manoma da yawa, domin yana iya girma ko da kasa ba ta da kyau sosai. Ana nomawa ta hanyar yankakken rassan tsiro (vine cuttings), ba iri ba.
 

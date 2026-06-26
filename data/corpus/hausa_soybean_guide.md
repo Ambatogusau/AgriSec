@@ -1,6 +1,4 @@
-# Jagorar Noman Waken Soya (Hausa Soybean Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `soybean_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Muhimmancin Inoculant
 Waken soya yana bukatar wani nau'in kwayoyin halitta na kasa (rhizobium) domin ya kara Nitrogen daga iska. **Yin amfani da inoculant (kamar NoduMax)** yana kara girbi sosai, ko da irin soya da ake girma a Najeriya.

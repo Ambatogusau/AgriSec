@@ -1,13 +1,3 @@
-"""
-Local offline web UI for AgriSec.
-
-This intentionally uses Python's standard library instead of a heavy web stack.
-It runs on localhost only and talks to the same RAG + Ollama pipeline as the CLI.
-
-Usage:
-    python -m src.web_app --model qwen2.5:1.5b
-    python -m src.web_app --demo
-"""
 import argparse
 import json
 import time
@@ -235,6 +225,26 @@ HTML = r"""<!doctype html>
       font-size: 12px;
       margin-top: 8px;
     }
+    .lang-badge{
+    display:inline-block;
+    margin-top:8px;
+    padding:6px 12px;
+    border-radius:20px;
+    background:#e8f5e9;
+    color:#1b5e20;
+    font-size:.8rem;
+    font-weight:600;
+}
+.lang-note{
+    margin-top:10px;
+    padding:10px 12px;
+    background:#f3faf4;
+    border-left:4px solid #2e7d32;
+    border-radius:8px;
+    font-size:.82rem;
+    line-height:1.5;
+    color:#35523c;
+}
     .error { color: var(--danger); }
     @media (max-width: 800px) {
       .shell { grid-template-columns: 1fr; }
@@ -259,11 +269,15 @@ HTML = r"""<!doctype html>
         </div>
       </div>
       <label class="side-title" for="language">Reply language</label>
-      <select id="language" class="control">
-        <option value="auto">Auto detect</option>
-        <option value="english">English</option>
-        <option value="hausa">Hausa</option>
-      </select>
+<select id="language" class="control">
+  <option value="auto">Auto detect</option>
+  <option value="english">English</option>
+  <option value="hausa">Hausa</option>
+</select>
+
+<div class="lang-note">
+  💡 <strong>Hausa:</strong> Kuna iya yin tambayoyi da Hausa ko Turanci. AgriSec zai gane harshen ku ta atomatik.
+</div>
       <div class="side-title">Quick topics</div>
       <div class="quick-grid">
         <button class="quick" data-q="How do I control fall armyworm in my maize farm without expensive pesticides?">Pest control</button>
@@ -278,10 +292,13 @@ HTML = r"""<!doctype html>
     </aside>
     <main>
       <header>
-        <div>
-          <h1>AgriSec Local Assistant</h1>
-          <div class="subtitle">Agriculture domain assistant for ADTC 2026. No cloud calls at inference time.</div>
-        </div>
+        <div class="subtitle">
+  Agriculture domain assistant for ADTC 2026. No cloud calls at inference time.
+</div>
+
+<div class="lang-badge">
+  🌍 English • Hausa • 100% Offline
+</div>
         <div class="status">
           <span class="pill good" id="mode">Offline ready</span>
           <span class="pill" id="model">Model: loading</span>
@@ -298,7 +315,7 @@ HTML = r"""<!doctype html>
         </div>
       </section>
       <form id="form">
-      <textarea id="question" placeholder="Type a farmer question..." aria-label="Question"></textarea>
+      <textarea id="question" placeholder="Type a farmer question in English/Hausa..." aria-label="Question"></textarea>
         <button class="send" id="send" type="submit">Send</button>
       </form>
     </main>

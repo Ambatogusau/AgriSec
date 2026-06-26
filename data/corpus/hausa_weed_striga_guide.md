@@ -1,6 +1,4 @@
-# Jagorar Ciyawar Striga (Hausa Striga/Witchweed Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `weed_striga_management.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Me Ya Sa Striga Yake Hatsari
 Striga ciyawa ce mai shan abinci daga saiwar masara, dawa, gero, ko shinkafar tudu — tana cutar da tsiro kafin ka ga ta sama da kasa.

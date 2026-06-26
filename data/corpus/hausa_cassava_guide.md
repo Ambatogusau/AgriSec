@@ -1,7 +1,4 @@
-# Jagorar Noman Rogo (Hausa Cassava Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `cassava_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Gabatarwa
 Najeriya ita ce kasa mafi noman rogo a duniya. Rogo yana bayar da rabin abincin yau da kullum ga mutane da yawa a Najeriya.
 

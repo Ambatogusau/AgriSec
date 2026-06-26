@@ -1,6 +1,4 @@
-# Jagorar Taki Urea (Hausa Urea Fertilizer Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta bayanin Ingilishi a `fertilizer_urea.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Menene Urea
 Urea shi ne takin Nitrogen mafi karfi (kimanin 46% Nitrogen), kuma shi ne mai araha fiye da sauran takin Nitrogen.

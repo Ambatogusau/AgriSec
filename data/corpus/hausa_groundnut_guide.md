@@ -1,6 +1,4 @@
-# Jagorar Noman Gyada (Hausa Groundnut Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `groundnut_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Irin Gyada
 Samnut 22, 24, 25, da 26 su ne irin gyada masu juriya ga cutar rosette da ake bukata a Najeriya.

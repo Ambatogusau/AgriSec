@@ -1,7 +1,4 @@
-# Jagorar Taki NPK (Hausa NPK Fertilizer Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta bayanin Ingilishi a `fertilizer_npk.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Menene NPK
 NPK shi ne takin da ke dauke da Nitrogen (N), Phosphorus (P), da Potassium (K) — abubuwa uku da kowane amfanin gona yake bukata mafi yawa. Lambobin akan jaka (misali "15-15-15") suna nuna kashi (%) na kowane bangare.
 

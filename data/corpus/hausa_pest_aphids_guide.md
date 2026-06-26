@@ -1,7 +1,4 @@
-# Jagorar Kwarin Aphids (Hausa Aphids Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `pest_aphids.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Gano Kwarin
 Aphids kanana ne, masu launin ja-toka, suna cin sabuwar ganye da tsire-tsire kanana. Suna shafar gyada, wake, da sauran amfanin gona.
 

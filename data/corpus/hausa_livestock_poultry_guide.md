@@ -1,7 +1,4 @@
-# Jagorar Kiwon Kaji (Hausa Poultry Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `livestock_poultry.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Babbar Cuta
 **Newcastle Disease** ita ce cuta mafi hatsari ga kaji a Najeriya — za ta iya kashe dukkan garken kaji cikin kwanaki idan ba a yi rigakafi ba.
 

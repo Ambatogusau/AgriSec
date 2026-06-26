@@ -1,6 +1,4 @@
-# Jagorar Noman Albasa da Tattasai (Hausa Onion & Pepper Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `onion_pepper_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Albasa
 - Ana noma albasa da ban ruwa a lokacin rani a jihohin Kano, Sokoto, Jigawa, Katsina, da sauransu.

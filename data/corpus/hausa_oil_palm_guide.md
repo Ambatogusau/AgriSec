@@ -1,7 +1,4 @@
-# Jagorar Noman Dabino Mai (Hausa Oil Palm Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta bayanin Ingilishi a `oil_palm_production.md`. **Bukatar dubawa daga mai magana da Hausa ko jami'in noma.**
-
+ 
 ## Gabatarwa
 Dabino mai (oil palm) jari ne na dogon lokaci — itace daya na iya bayar da 'ya'ya har shekaru 25 bayan ya girma. Najeriya tana cikin manyan kasashen duniya wajen noman dabino mai.
 

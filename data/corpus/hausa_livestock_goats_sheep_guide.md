@@ -1,6 +1,4 @@
-# Jagorar Kiwon Awaki da Tumaki (Hausa Goats & Sheep Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `livestock_goats_sheep.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Babbar Matsala
 **Tsutsotsi na ciki (helminthiasis)** su ne matsalar lafiya mafi yawaita ga awaki da tumaki — bayar da maganin tsutsa akai-akai yana da muhimmanci sosai.

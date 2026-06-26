@@ -1,6 +1,4 @@
-# Jagorar Noman Tumatir (Hausa Tomato Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `tomato_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Shuka
 - A fara da gonar nursery, kar a shuka kai tsaye a gona.

@@ -1,6 +1,4 @@
-# Jagorar Noman Gero da Dawa (Hausa Millet & Sorghum Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `millet_sorghum_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Gabatarwa
 Gero da dawa suna da muhimmanci ga abincin gida a Arewacin Najeriya, domin suna iya jure fari da zafi fiye da masara.

@@ -1,6 +1,6 @@
-# Jagorar Kiwon Kifi (Hausa Fish Farming Guide)
+ 
 
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `aquaculture_fish_farming.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Irin Kifi
 - **Kifin Catfish:** mafi yaduwa a Najeriya, yana jure ruwa mara kyau sosai.

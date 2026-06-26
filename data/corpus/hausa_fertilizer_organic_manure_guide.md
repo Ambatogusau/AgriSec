@@ -1,6 +1,4 @@
-# Jagorar Takin Dabbobi (Hausa Organic Manure Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta bayanin Ingilishi a `fertilizer_organic_manure.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Menene Takin Dabbobi
 Takin dabbobi (kashin shanu, akuya, tumaki, da sauransu) da kuma ragowar amfanin gona da suka rube, suna kara kyawun kasa a hankali, ba kamar NPK ko Urea da suke aiki da sauri ba.

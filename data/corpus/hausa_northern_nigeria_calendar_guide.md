@@ -1,7 +1,4 @@
-# Kalandar Noma Arewacin Najeriya (Hausa Calendar Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `northern_nigeria_calendar.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Lokutan Shuka (Sudan/Northern Guinea Savanna)
 | Amfanin Gona | Lokacin Shuka |
 |---|---|

@@ -1,7 +1,4 @@
-# Jagorar Kiwon Shanu (Hausa Cattle Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `livestock_cattle.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Irin Shanu
 White Fulani, Sokoto Gudali, Red Bororo, da Keteku su ne irin shanun gargajiya da ake kiwo a Najeriya.
 

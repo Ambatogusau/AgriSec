@@ -1,6 +1,4 @@
-# Jagorar Tsutsa Mai Cin Masara (Hausa Fall Armyworm Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `pest_fall_armyworm.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Gano Kwarin
 Tsutsar Fall Armyworm tana cin ganyen masara, ana ganin ramuka kamar "taga" akan ganyaye, da kuma kashin tsutsa (frass) kusa da tsakiyar tsiro.

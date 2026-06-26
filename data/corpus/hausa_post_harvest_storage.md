@@ -1,5 +1,4 @@
-# Ajiya Bayan Girbi da Rigakafin Aflatoxin
-
+ 
 ## Ajiye Masara Bayan Girbi
 - A bar masara ta bushe sosai kafin a saka ta a buhu ko rumbu.
 - Kada a shanya masara kai tsaye a kasa ko gefen titi; a yi amfani da tabarma, leda mai tsafta, ko siminti mai tsabta.

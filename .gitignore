@@ -19,6 +19,13 @@ dist/
 # Logs
 *.log
 
+# ADTC profiler local artifacts
+model.gguf
+submission.json
+audit.json
+verdict.json
+tools/llama.cpp/
+
 # FAISS index (rebuild when needed)
 data/index/
 

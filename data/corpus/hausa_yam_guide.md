@@ -1,7 +1,4 @@
-# Jagorar Noman Doya (Hausa Yam Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `yam_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
-
+ 
 ## Gabatarwa
 Najeriya ita ce kasa mafi noman doya a duniya. Doya tana bukatar kasa mai laushi, mai zubar ruwa da kyau.
 

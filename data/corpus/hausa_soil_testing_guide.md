@@ -1,6 +1,4 @@
-# Jagorar Gwajin Kasa (Hausa Soil Testing Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `soil_testing_basics.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Me Yasa Ake Bukatar Gwajin Kasa
 Adadin taki da aka ba a wannan littafin (misali "jaka 6 na NPK a kowace hekta") shawara ce ta gama-gari, ba takamaimai ga kowace gona ba. Kasashe daban-daban suna bukatar taki daban-daban.

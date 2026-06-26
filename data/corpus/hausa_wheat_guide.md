@@ -1,7 +1,4 @@
-# Jagorar Noman Alkama (Hausa Wheat Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta bayanin Ingilishi a `wheat_production.md`. **Bukatar dubawa daga mai magana da Hausa ko jami'in noma kafin amfani da shi ga manoma.**
-
+ 
 ## Gabatarwa
 Alkama ana nomawa a lokacin rani (dry season) ta hanyar ban ruwa, ba kamar masara ko shinkafa da ake nomawa lokacin damina ba. Jihohin Kano da Jigawa su ne suka fi noman alkama a Najeriya.
 

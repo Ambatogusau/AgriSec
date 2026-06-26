@@ -1,0 +1,41 @@
+{
+  "team_id": "Ambatogusau-AgriSec",
+  "domain": "agriculture",
+  "language_scope": [
+    "en",
+    "ha"
+  ],
+  "african_alpha_claim": true,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "Ambatogusau",
+    "email": "ambatoprodigitalpix@gmail.com",
+    "github_handle": "Ambatogusau"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "Agriculture and local-language AI",
+    "load_bearing": true,
+    "description": "AgriSec combines offline retrieval-augmented generation with agriculture-specific English and Hausa knowledge so farmers can receive source-backed crop, pest, fertilizer, livestock, and post-harvest guidance on budget laptops."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "maize_fertilizer_en",
+      "prompt": "A smallholder farmer in northern Nigeria is growing maize on poor soil. Give practical fertilizer and soil management advice."
+    },
+    {
+      "prompt_id": "fall_armyworm_ha",
+      "prompt": "Manomi ya ga kwari suna cin ganyen masara. Ka ba shi shawarwari a Hausa game da yadda zai gane da kuma rage fall armyworm."
+    }
+  ],
+  "model": {
+    "name": "Qwen2.5 1.5B Instruct",
+    "runtime": "llama.cpp GGUF for ADTC profiler; Ollama for the AgriSec application runtime",
+    "quantization": "Q4_K_M",
+    "parameters_estimate": "1.5B",
+    "packaging": "binary_bundle"
+  },
+  "_runtime": {
+    "model_path": "model.gguf",
+    "docker_image": "none"
+  }
+}

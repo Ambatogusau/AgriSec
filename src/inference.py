@@ -171,7 +171,7 @@ class LocalLLM:
         }
         return requests.post(OLLAMA_URL, json=payload, timeout=60)
 
-    def generate(self, prompt: str, max_tokens: int = 220, temperature: float = 0.1, max_continuations: int = 2):
+    def generate(self, prompt: str, max_tokens: int = 100, temperature: float = 0.1, max_continuations: int = 2):
         start = time.time()
         try:
             response = self._call_ollama(prompt, max_tokens, temperature)

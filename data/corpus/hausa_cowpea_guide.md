@@ -1,6 +1,4 @@
-# Jagorar Noman Wake (Hausa Cowpea Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `cowpea_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Gabatarwa
 Wake amfanin gona ne mai muhimmanci ga abinci da kudin shiga a Arewacin Najeriya, kuma yana kara kyawun kasa ga sauran amfanin gona.

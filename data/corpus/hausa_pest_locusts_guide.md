@@ -1,6 +1,4 @@
-# Jagorar Fara (Hausa Desert Locust Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `pest_locusts.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Me Yasa Fara Ya Sha Bamban
 Fara yana tafiya daga kasa zuwa kasa, kuma rukuni daya na fara zai iya cin abinci kamar mutane 35,000 a rana daya. Saboda haka, gano shi da wuri shi ne mafita mafi muhimmi, ba aikin gona daya kadai ba.

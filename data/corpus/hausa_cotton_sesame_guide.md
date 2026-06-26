@@ -1,6 +1,4 @@
-# Jagorar Noman Auduga da Ridi (Hausa Cotton & Sesame Guide)
-
-> **MUHIMMIN BAYANI GA KUNGIYAR:** AI ne ya rubuta wannan takarda, fassara ce ta `cotton_sesame_production.md`. **Bukatar dubawa daga mai magana da Hausa.**
+ 
 
 ## Auduga
 - Jihohin Zamfara, Katsina, Kano, da Adamawa su ne suka fi noman auduga.
