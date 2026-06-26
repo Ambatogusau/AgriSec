@@ -355,9 +355,10 @@ python -m src.assistant --model qwen2.5:1.5b
 
 ---
 
- HEAD
-# 📸 Screenshots
- 
+
+
+  HEAD
+  
 # 📸 Screenshots
 
 ### 1. Home Page
