@@ -92,12 +92,42 @@ TOPIC_KEYWORDS = {
                                       # missed-detection bug previously).
     "yam": {"yam", "doya"},
     "onion_pepper": {"onion", "pepper", "albasa", "tattasai"},
-    "cotton_sesame": {"cotton", "sesame", "auduga", "ridi"},
+    "cotton_sesame": {"cotton", "sesame", "auduga", "ridi", "kada"},
     "aquaculture": {"fish", "catfish", "tilapia", "kifi"},
     "wheat": {"wheat", "alkama"},
     "sweet_potato": {"sweet potato", "sweetpotato", "dankali"},
     "oil_palm": {"oil palm", "palm oil", "dabino"},
-    "livestock": {"cattle", "goat", "sheep", "poultry", "livestock"},
+    "cattle": {
+    "cattle",
+    "cow",
+    "cow farming",
+    "shanu",
+    "kiwon shanu"
+},
+
+"poultry": {
+    "poultry",
+    "chicken",
+    "hen",
+    "broiler",
+    "layer",
+    "kaji",
+    "kiwon kaji"
+},
+
+"goats_sheep": {
+    "goat",
+    "goats",
+    "sheep",
+    "akuya",
+    "tumaki",
+    "rago",
+    "bunshuru",
+    "kiwon rago",
+    "kiwon bunsuru",
+    "kiwon akuya",
+    "kiwon tumaki"
+},
     "storage": {"store", "storage", "stored", "harvest", "post", "aflatoxin",
                 "dry", "drying", "ajiye", "girbi", "bushe"},
 }
@@ -106,6 +136,9 @@ CROP_TOPICS = {
     "maize", "rice", "cowpea", "groundnut", "tomato", "yam", "cassava",
     "millet_sorghum", "onion_pepper", "cotton_sesame",
     "wheat", "sweet_potato", "oil_palm",
+    "cattle",
+    "poultry",
+    "goats_sheep",
 }
 
 # Deterministic filename -> crop lookup. Order matters: compound names
@@ -125,6 +158,9 @@ _PRIMARY_CROP_LOOKUP = (
     ("tomato", "tomato"),
     ("yam", "yam"),
     ("cassava", "cassava"),
+    ("livestock_cattle", "cattle"),
+("livestock_poultry", "poultry"),
+("livestock_goats_sheep", "goats_sheep"),
 )
 
 # ---------------------------------------------------------------------------
