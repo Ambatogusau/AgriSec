@@ -358,10 +358,57 @@ python -m src.assistant --model qwen2.5:1.5b
  HEAD
 # 📸 Screenshots
  
-<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 2_48_45 PM" src="https://github.com/user-attachments/assets/f06d6699-df6d-458c-b880-1d6cd3dd7080" />
-<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 2_48_32 PM" src="https://github.com/user-attachments/assets/c8f9c690-14a9-4b87-abce-41efc1a15dac" />
-<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 2_46_28 PM" src="https://github.com/user-attachments/assets/be9110b2-dd49-4be3-98a0-8d2be3b0afa8" />
-<img width="1366" height="720" alt="AgriSec Local Assistant - Google Chrome 6_25_2026 4_31_34 PM" src="https://github.com/user-attachments/assets/5edbe509-2fdf-46d3-934c-49fe1923fb8d" />
+# 📸 Screenshots
+
+### 1. Home Page
+
+![AgriSec Home](assets/screenshots/01-homepage.png)
+
+---
+
+### 2. English Assistant Demo (Maize Farming)
+
+![English Demo](assets/screenshots/02-english-maize.png)
+
+---
+
+### 3. Hausa Assistant Demo (Rice Farming)
+
+![Hausa Demo](assets/screenshots/03-hausa-rice.png)
+
+---
+
+### 4. English Post-Harvest Storage Advice
+
+![Storage Advice](assets/screenshots/04-english-storage.png)
+
+---
+
+### 5. Hausa Post-Harvest Storage Advice
+
+![Hausa Storage](assets/screenshots/05-hausa-storage.png)
+
+---
+
+### 6. Rice Fertilizer Recommendation
+
+![Rice Fertilizer](assets/screenshots/06-rice-fertilizer.png)
+
+---
+
+### 7. Retrieval Debug Information
+
+Shows language detection, topic detection, retrieved documents, selected sources, and relevance scores used to generate grounded responses.
+
+![Retrieval Debug](assets/screenshots/07-retrieval-debug.png)
+
+---
+
+### 8. ADTC Profiler Results
+
+Official ADTC participant profiler showing model performance, throughput, memory usage, and offline execution metrics.
+
+![ADTC Profiler](assets/screenshots/08-profiler.png)
  
 =======
 # 💬 Example Questions
