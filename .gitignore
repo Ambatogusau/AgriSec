@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# ADTC profiler local artifacts
+model/
+model.gguf
+*.gguf
+submission.json
+audit.json
+verdict.json
+tools/llama.cpp/
+
+# FAISS index (rebuild when needed)
+data/index/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / Temp files
+Thumbs.db
+.DS_Store
+~$*
+*.tmp
